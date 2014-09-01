@@ -89,5 +89,6 @@
 	<classpathentry kind="lib" path="libs/http-core/netty-servlet-bridge-1.0.0-SNAPSHOT.jar"/>
 	<classpathentry kind="lib" path="libs/http-core/servlet-api-2.5.jar"/>
 	<classpathentry kind="lib" path="libs/rfx-core-master.jar"/>
+	<classpathentry kind="lib" path="libs/http-core/netty-all-4.0.23.Final.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

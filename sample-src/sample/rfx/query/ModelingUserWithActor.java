@@ -178,7 +178,6 @@ public class ModelingUserWithActor {
 		
 	static class PredicateIncomeLargerThan50k implements PredicateFactory {
 		private static final long serialVersionUID = -7011351296196435505L;
-
 		public Predicate<Person> build(){
 			return new Predicate<Person>() {			
 				@Override
