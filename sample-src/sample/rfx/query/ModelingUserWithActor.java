@@ -31,7 +31,7 @@ import com.google.gson.Gson;
 
 public class ModelingUserWithActor {
 	static int MAX_POOL_SIZE = 1000000;
-	final static String SAMPLE_DATA_PATH = "/home/trieu/data/user-income.txt";
+	final static String SAMPLE_DATA_PATH = "/home/trieunt/data/user-income.txt";
 
 	static AtomicInteger idCount = new AtomicInteger();
 		
@@ -190,7 +190,6 @@ public class ModelingUserWithActor {
 	
 	static class FunctionGroupByEducation implements FunctionFactory {
 		private static final long serialVersionUID = -872087603235171330L;
-
 		@Override
 		public Function<ActorData, String> build() {
 			return new Function<ActorData, String>() {				
